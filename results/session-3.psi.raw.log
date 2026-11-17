@@ -1,0 +1,15 @@
+# search alone, end of measured window
+/proc/pressure/io:some avg10=1.97 avg60=1.98 avg300=2.63 total=26320361
+/proc/pressure/io:full avg10=1.97 avg60=1.98 avg300=2.60 total=25969125
+/proc/pressure/memory:some avg10=0.00 avg60=0.00 avg300=0.00 total=49287
+/proc/pressure/memory:full avg10=0.00 avg60=0.00 avg300=0.00 total=49029
+# db alone, end of measured window
+/proc/pressure/io:some avg10=17.05 avg60=16.69 avg300=13.33 total=91902153
+/proc/pressure/io:full avg10=16.65 avg60=16.33 avg300=13.09 total=90442598
+/proc/pressure/memory:some avg10=0.00 avg60=0.00 avg300=0.00 total=49287
+/proc/pressure/memory:full avg10=0.00 avg60=0.00 avg300=0.00 total=49029
+# one node, end of measured window
+/proc/pressure/io:some avg10=3.74 avg60=18.37 avg300=20.18 total=178045548
+/proc/pressure/io:full avg10=3.64 avg60=17.93 avg300=19.75 total=174885062
+/proc/pressure/memory:some avg10=0.01 avg60=0.22 avg300=0.17 total=1855227
+/proc/pressure/memory:full avg10=0.01 avg60=0.22 avg300=0.16 total=1849500

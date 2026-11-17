@@ -1,0 +1,7 @@
+## node: 2 vCPU, 6.0 GiB RAM (memory cgroup limit), Linux 6.18.44, ext4, no swap
+## data: 3072 MiB mmap index; 3072 MiB collection + 1536 MiB private db cache
+## load: 200 queries/s x 128 random pages; 250 txns/s x (4 reads + 32 KB commit)
+##       150 s ramp, then 180 s measured
+search alone|search n=36000 p50_us=200 p99_us=1084 p999_us=10144 max_us=28106 majflt=0 resident_min_pct=100.0 resident_end_pct=100.0 flushed_mb=2560 merged_mb=5120 merges=25 chk=0||refault_file=0 pgsteal_file=0 psi_io_some_pct=3.4 psi_io_full_pct=3.3 psi_mem_some_pct=0.0 psi_mem_full_pct=0.0 psi_cpu_some_pct=0.4 trig_mem_some=0 trig_io_full=17
+db alone||db n=45000 p50_us=806 p99_us=59897 p999_us=130990 max_us=213859 written_mb=2578|refault_file=0 pgsteal_file=0 psi_io_some_pct=17.1 psi_io_full_pct=16.7 psi_mem_some_pct=0.0 psi_mem_full_pct=0.0 psi_cpu_some_pct=0.5 trig_mem_some=0 trig_io_full=70
+one node|search n=36000 p50_us=1919 p99_us=745602 p999_us=1026724 max_us=1074321 majflt=1018417 resident_min_pct=70.3 resident_end_pct=87.6 flushed_mb=2560 merged_mb=5120 merges=25 chk=0|db n=45000 p50_us=811 p99_us=504547 p999_us=943626 max_us=1052883 written_mb=2578|refault_file=1198834 pgsteal_file=1933293 psi_io_some_pct=27.1 psi_io_full_pct=26.6 psi_mem_some_pct=0.8 psi_mem_full_pct=0.8 psi_cpu_some_pct=1.9 trig_mem_some=2 trig_io_full=69

@@ -1,0 +1,7 @@
+node: 2 vCPU, 6.0 GiB RAM (memory cgroup limit), Linux 6.18.44, ext4, no swap, vm.dirty_ratio=20
+data: 3072 MiB mmap index, 3072 MiB collection, 1536 MiB db cache
+load: 200 queries/s x 128 random pages; 250 txns/s x (4 reads + 32 KB commit) = 7.8 MB/s of documents
+      150 s ramp, then 180 s measured
+
+scenario       search p50  search p99     txn p50     txn p99  idx in RAM  maj.faults    evicted  io stall
+one node          1.98 ms   794.33 ms     0.81 ms   458.82 ms       68.5%     1022221   7624 MiB     22.8%

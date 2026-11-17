@@ -1,0 +1,224 @@
+resident t=0s pct=100.0
+resident t=5s pct=100.0
+resident t=10s pct=100.0
+resident t=15s pct=100.0
+resident t=20s pct=100.0
+resident t=25s pct=100.0
+resident t=30s pct=100.0
+resident t=35s pct=100.0
+resident t=40s pct=100.0
+resident t=45s pct=100.0
+resident t=50s pct=100.0
+resident t=55s pct=100.0
+resident t=60s pct=100.0
+resident t=65s pct=100.0
+resident t=70s pct=100.0
+resident t=75s pct=100.0
+resident t=80s pct=100.0
+resident t=85s pct=100.0
+resident t=90s pct=100.0
+resident t=95s pct=100.0
+resident t=100s pct=100.0
+resident t=105s pct=100.0
+resident t=110s pct=100.0
+resident t=115s pct=100.0
+resident t=120s pct=100.0
+resident t=125s pct=100.0
+resident t=130s pct=100.0
+resident t=135s pct=100.0
+resident t=140s pct=100.0
+resident t=145s pct=100.0
+resident t=150s pct=100.0
+resident t=155s pct=100.0
+resident t=160s pct=100.0
+resident t=165s pct=100.0
+resident t=170s pct=100.0
+resident t=175s pct=100.0
+resident t=180s pct=100.0
+resident t=185s pct=100.0
+resident t=190s pct=100.0
+resident t=195s pct=100.0
+resident t=200s pct=100.0
+resident t=205s pct=100.0
+resident t=210s pct=100.0
+resident t=215s pct=100.0
+resident t=221s pct=100.0
+resident t=226s pct=100.0
+resident t=231s pct=100.0
+resident t=236s pct=100.0
+resident t=241s pct=100.0
+resident t=246s pct=100.0
+resident t=251s pct=100.0
+resident t=256s pct=100.0
+resident t=261s pct=100.0
+resident t=266s pct=100.0
+resident t=271s pct=100.0
+resident t=276s pct=100.0
+resident t=281s pct=100.0
+resident t=286s pct=100.0
+resident t=291s pct=100.0
+resident t=296s pct=100.0
+resident t=301s pct=100.0
+resident t=306s pct=100.0
+resident t=311s pct=100.0
+resident t=316s pct=100.0
+resident t=321s pct=100.0
+resident t=326s pct=100.0
+resident t=331s pct=100.0
+resident t=336s pct=100.0
+search t=  0- 15s p50_us=191 p99_us=1103 max_us=8634
+search t= 15- 30s p50_us=160 p99_us=504 max_us=7214
+search t= 30- 45s p50_us=171 p99_us=711 max_us=3384
+search t= 45- 60s p50_us=172 p99_us=482 max_us=6446
+search t= 60- 75s p50_us=164 p99_us=564 max_us=10315
+search t= 75- 90s p50_us=159 p99_us=658 max_us=3691
+search t= 90-105s p50_us=225 p99_us=822 max_us=27982
+search t=105-120s p50_us=180 p99_us=469 max_us=2117
+search t=120-135s p50_us=187 p99_us=675 max_us=11031
+search t=135-150s p50_us=181 p99_us=891 max_us=12246
+search t=150-165s p50_us=296 p99_us=1372 max_us=12326
+search t=165-180s p50_us=196 p99_us=546 max_us=4851
+search t=180-195s p50_us=192 p99_us=820 max_us=6409
+search t=195-210s p50_us=168 p99_us=543 max_us=8028
+search t=210-225s p50_us=182 p99_us=1082 max_us=11848
+search t=225-240s p50_us=231 p99_us=933 max_us=23148
+search t=240-255s p50_us=189 p99_us=2762 max_us=28106
+search t=255-270s p50_us=179 p99_us=845 max_us=12359
+search t=270-285s p50_us=173 p99_us=449 max_us=8604
+search t=285-300s p50_us=330 p99_us=2209 max_us=24409
+search t=300-315s p50_us=204 p99_us=879 max_us=12023
+search t=315-330s p50_us=200 p99_us=1319 max_us=26267
+db t=  0- 15s p50_us=1169 p99_us=66345 max_us=87692
+db t= 15- 30s p50_us=1185 p99_us=312237 max_us=374497
+db t= 30- 45s p50_us=1102 p99_us=65943 max_us=89418
+db t= 45- 60s p50_us=1097 p99_us=62071 max_us=80191
+db t= 60- 75s p50_us=1056 p99_us=56824 max_us=74652
+db t= 75- 90s p50_us=1074 p99_us=60737 max_us=104462
+db t= 90-105s p50_us=1071 p99_us=61021 max_us=74986
+db t=105-120s p50_us=1079 p99_us=54793 max_us=72607
+db t=120-135s p50_us=1005 p99_us=61328 max_us=104550
+db t=135-150s p50_us=808 p99_us=56071 max_us=85988
+db t=150-165s p50_us=922 p99_us=60306 max_us=75838
+db t=165-180s p50_us=795 p99_us=58221 max_us=76866
+db t=180-195s p50_us=775 p99_us=53475 max_us=85573
+db t=195-210s p50_us=738 p99_us=54892 max_us=74580
+db t=210-225s p50_us=798 p99_us=54627 max_us=91334
+db t=225-240s p50_us=821 p99_us=132155 max_us=213859
+db t=240-255s p50_us=890 p99_us=88342 max_us=149126
+db t=255-270s p50_us=775 p99_us=55122 max_us=69711
+db t=270-285s p50_us=805 p99_us=53906 max_us=70110
+db t=285-300s p50_us=795 p99_us=52708 max_us=72176
+db t=300-315s p50_us=818 p99_us=50780 max_us=81690
+db t=315-330s p50_us=822 p99_us=56107 max_us=71397
+resident t=0s pct=100.0
+resident t=5s pct=100.0
+resident t=10s pct=100.0
+resident t=15s pct=100.0
+resident t=20s pct=100.0
+resident t=25s pct=100.0
+resident t=30s pct=100.0
+resident t=35s pct=100.0
+resident t=40s pct=100.0
+resident t=45s pct=100.0
+resident t=50s pct=100.0
+resident t=55s pct=100.0
+resident t=60s pct=100.0
+resident t=65s pct=98.1
+resident t=70s pct=96.9
+resident t=75s pct=92.3
+resident t=80s pct=87.6
+resident t=85s pct=82.1
+resident t=90s pct=74.8
+resident t=95s pct=68.1
+resident t=100s pct=72.9
+resident t=105s pct=74.0
+resident t=110s pct=68.3
+resident t=115s pct=68.4
+resident t=120s pct=67.9
+resident t=125s pct=67.8
+resident t=130s pct=65.2
+resident t=135s pct=61.3
+resident t=140s pct=61.5
+resident t=145s pct=67.3
+resident t=151s pct=70.6
+resident t=156s pct=72.4
+resident t=161s pct=73.1
+resident t=166s pct=77.0
+resident t=171s pct=80.5
+resident t=176s pct=78.6
+resident t=181s pct=79.3
+resident t=186s pct=77.5
+resident t=191s pct=75.5
+resident t=196s pct=74.6
+resident t=201s pct=74.8
+resident t=206s pct=74.6
+resident t=211s pct=72.2
+resident t=216s pct=70.8
+resident t=221s pct=70.3
+resident t=226s pct=70.5
+resident t=231s pct=74.6
+resident t=236s pct=78.4
+resident t=241s pct=76.8
+resident t=246s pct=76.7
+resident t=251s pct=75.8
+resident t=256s pct=75.0
+resident t=261s pct=74.9
+resident t=266s pct=75.7
+resident t=271s pct=76.9
+resident t=276s pct=77.8
+resident t=281s pct=79.7
+resident t=286s pct=80.3
+resident t=291s pct=80.0
+resident t=296s pct=82.3
+resident t=301s pct=82.8
+resident t=306s pct=82.1
+resident t=311s pct=82.4
+resident t=316s pct=82.0
+resident t=321s pct=82.8
+resident t=326s pct=84.3
+resident t=331s pct=86.2
+resident t=336s pct=87.6
+db t=  0- 15s p50_us=1002 p99_us=58300 max_us=76042
+db t= 15- 30s p50_us=909 p99_us=81664 max_us=133386
+db t= 30- 45s p50_us=912 p99_us=85985 max_us=172860
+db t= 45- 60s p50_us=968 p99_us=70163 max_us=147105
+db t= 60- 75s p50_us=853 p99_us=75036 max_us=139321
+db t= 75- 90s p50_us=830 p99_us=605018 max_us=730322
+db t= 90-105s p50_us=796 p99_us=203496 max_us=276386
+db t=105-120s p50_us=799 p99_us=104685 max_us=151420
+db t=120-135s p50_us=805 p99_us=56899 max_us=79329
+db t=135-150s p50_us=821 p99_us=134410 max_us=214266
+db t=150-165s p50_us=809 p99_us=679367 max_us=811317
+db t=165-180s p50_us=802 p99_us=106516 max_us=186278
+db t=180-195s p50_us=819 p99_us=113034 max_us=196284
+db t=195-210s p50_us=807 p99_us=79970 max_us=152611
+db t=210-225s p50_us=808 p99_us=710802 max_us=797461
+db t=225-240s p50_us=817 p99_us=73389 max_us=126147
+db t=240-255s p50_us=795 p99_us=80504 max_us=171674
+db t=255-270s p50_us=804 p99_us=85203 max_us=165394
+db t=270-285s p50_us=839 p99_us=961380 max_us=1052883
+db t=285-300s p50_us=819 p99_us=150350 max_us=255420
+db t=300-315s p50_us=808 p99_us=57746 max_us=85623
+db t=315-330s p50_us=812 p99_us=70478 max_us=163096
+search t=  0- 15s p50_us=129 p99_us=466 max_us=2856
+search t= 15- 30s p50_us=135 p99_us=350 max_us=4779
+search t= 30- 45s p50_us=137 p99_us=331 max_us=4069
+search t= 45- 60s p50_us=203 p99_us=35409 max_us=113614
+search t= 60- 75s p50_us=850 p99_us=75514 max_us=170590
+search t= 75- 90s p50_us=2103 p99_us=803638 max_us=850524
+search t= 90-105s p50_us=2244 p99_us=262364 max_us=330511
+search t=105-120s p50_us=2607 p99_us=207740 max_us=270860
+search t=120-135s p50_us=2891 p99_us=86390 max_us=103513
+search t=135-150s p50_us=2367 p99_us=203064 max_us=266163
+search t=150-165s p50_us=1952 p99_us=983968 max_us=1029112
+search t=165-180s p50_us=1850 p99_us=190867 max_us=238688
+search t=180-195s p50_us=2214 p99_us=190990 max_us=269725
+search t=195-210s p50_us=2128 p99_us=108666 max_us=173761
+search t=210-225s p50_us=2364 p99_us=1027974 max_us=1074321
+search t=225-240s p50_us=1969 p99_us=157570 max_us=207993
+search t=240-255s p50_us=2148 p99_us=119475 max_us=155606
+search t=255-270s p50_us=2046 p99_us=150706 max_us=217993
+search t=270-285s p50_us=1740 p99_us=998923 max_us=1030044
+search t=285-300s p50_us=1517 p99_us=223113 max_us=273259
+search t=300-315s p50_us=1539 p99_us=75372 max_us=97970
+search t=315-330s p50_us=1304 p99_us=108020 max_us=177213

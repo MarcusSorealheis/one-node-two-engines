@@ -1,0 +1,1 @@
+# one node: search n=36000 p50_us=1983 p99_us=794334 p999_us=1192492 max_us=1226669 majflt=1022221 resident_min_pct=68.5 resident_end_pct=87.8 flushed_mb=2560 merged_mb=5120 merges=25 chk=0 | db n=45000 p50_us=812 p99_us=458817 p999_us=929685 max_us=1082948 written_mb=2578 | sys_majflt=1020029 refault_file=1203038 pgsteal_file=1951903
